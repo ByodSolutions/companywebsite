@@ -5,10 +5,23 @@ body {
     height: 100vh;
     background-color: white;
     margin: 0;
+    text-align: center;
+    flex-direction: column;
 }
 
-.image-container img {
+.container {
+    text-align: center;
+}
+
+img {
     max-width: 100%;
     height: auto;
     display: block;
+    margin-bottom: 20px;
+}
+
+p {
+    font-size: 18px;
+    color: #333;
+    max-width: 600px;
 }
